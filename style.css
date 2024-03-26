@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+body{
+    background-color: rgb(241, 236, 230);
+}
+h1{
+    background-color: black;
+    border: 1px solid wheat;
+    color: beige;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ 
+   border-radius: 15px;
+   height: 5rem;
+   line-height: 5rem;
+}
+.choice{
+    height: 200px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    box-shadow: 1px  0 1px rgb(173, 97, 97)
+    
+}
+.choice:hover{
+    background-color: black;
+    
+}
+img{
+    height: 185px;
+    width: 185px;
+    object-fit: cover;
+    border-radius: 50%;
+
+}
+.choices{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 50px;
+    
+}
+.score-board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 120px;
+    margin-top: 50px;
+}
+.score{
+    font-size: xx-large;
+    font-weight: bolder;
+}
+#message-display{
+    margin-top: 5rem;
+    background-color: black;
+    color: aliceblue;
+    font-size: xx-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: inline;
+   top: 40px;
+   padding: 15px;
+   border-radius: 20px;
+}
+.message-container{
+    margin-top: 5rem;
+}
+#reset-btn{
+    padding: 12px;
+    background-color: rgb(32, 102, 146);
+    color: aliceblue;
+    font-size: x-large;
+    margin-top: 2rem;
+    border-radius: 10px;
+}
+#reset-btn:hover{
+    background-color: rgb(64, 163, 224);
+    order: 3;
+}
